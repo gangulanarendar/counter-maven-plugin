@@ -38,3 +38,20 @@ counter-maven-plugin
 			</plugin>
 		</plugins>
 	</build>
+	
+	
+	Output in used project mvn clean install
+
+[INFO] --- counter-maven-plugin:0.0.1-SNAPSHOT:dependency-counter (default) @ naren-receipe-app ---
+[INFO] dependency : compile
+[INFO] dependency : compile
+[INFO] dependency : compile
+[INFO] dependency : compile
+[INFO] dependency : runtime
+[INFO] dependency : runtime
+[INFO] dependency : test
+[INFO] Project Name getArtifactId: naren-receipe-app
+[INFO] scope: test
+[INFO] Number of dependencies: 7
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
